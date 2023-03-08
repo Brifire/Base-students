@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Insert_data</class>
+ <widget class="QDialog" name="Insert_data">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>546</width>
+    <height>431</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="10" column="1">
+      <widget class="QDateEdit" name="dateEdit_edit_2"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_lname">
+       <property name="text">
+        <string>Введите фамилию</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" colspan="2">
+      <widget class="QComboBox" name="comboBox_main_2">
+       <property name="editable">
+        <bool>false</bool>
+       </property>
+       <property name="currentText">
+        <string>Студенты </string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Студенты </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Преподователи </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Предметы </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Факультеты  </string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="academic_degree_teachers_2"/>
+     </item>
+     <item row="11" column="0">
+      <widget class="QLabel" name="label_subject_insert">
+       <property name="text">
+        <string>Введите предмет </string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="academic_title_teachers_2"/>
+     </item>
+     <item row="8" column="1">
+      <widget class="QComboBox" name="comboBox_sem_2"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="Patronymic_edit_2"/>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_subject">
+       <property name="text">
+        <string>Subject</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="Name_edit_2"/>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_semestr">
+       <property name="text">
+        <string>Ceместр</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QLineEdit" name="lineEdit_subject_insert">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="Lname_edit_2"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_academic_degree">
+       <property name="text">
+        <string>Academic_degree</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLabel" name="label_facultaty">
+       <property name="text">
+        <string>Факультет</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QComboBox" name="comboBox_dep_2"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_patroni">
+       <property name="text">
+        <string>Введите отчество </string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_department">
+       <property name="text">
+        <string>Department </string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_academ_title">
+       <property name="text">
+        <string>Academic_title</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QComboBox" name="comboBox_subjects"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_fname">
+       <property name="text">
+        <string>Введите имя</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="departmen_teachers_2"/>
+     </item>
+     <item row="10" column="0">
+      <widget class="QLabel" name="label_birth">
+       <property name="text">
+        <string>Введите дату рождения</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="0">
+      <widget class="QLabel" name="label_facultaty_insert">
+       <property name="text">
+        <string>Введите факультет</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QLineEdit" name="lineEdit_facultaty_insert"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QDialogButtonBox" name="buttonBox_3">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

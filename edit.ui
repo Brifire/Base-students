@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Edit</class>
+ <widget class="QDialog" name="Edit">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>409</width>
+    <height>439</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="10" column="0">
+      <widget class="QLabel" name="label_date">
+       <property name="text">
+        <string>Введите дату рождения</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QDateEdit" name="dateEdit_edit_2"/>
+     </item>
+     <item row="0" column="0" colspan="2">
+      <widget class="QComboBox" name="comboBox_main_2">
+       <property name="editable">
+        <bool>false</bool>
+       </property>
+       <property name="currentText">
+        <string>Студенты </string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Студенты </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Преподователи </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Предметы и преподователи </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Факультеты и предметы </string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_name">
+       <property name="text">
+        <string>Введите имя</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="departmen_teachers_2"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="Patronymic_edit_2"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="Lname_edit_2"/>
+     </item>
+     <item row="9" column="1">
+      <widget class="QComboBox" name="comboBox_dep_2"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_academic_degree">
+       <property name="text">
+        <string>Academic_degree</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_semestr">
+       <property name="text">
+        <string>Ceместр</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLabel" name="label_facultaty">
+       <property name="text">
+        <string>Факультет</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="academic_degree_teachers_2"/>
+     </item>
+     <item row="8" column="1">
+      <widget class="QComboBox" name="comboBox_sem_2"/>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_academic_title">
+       <property name="text">
+        <string>Academic_title</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="academic_title_teachers_2"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="Name_edit_2"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_department">
+       <property name="text">
+        <string>Department </string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_lname">
+       <property name="text">
+        <string>Введите фамилию</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QComboBox" name="comboBox_subj"/>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_subject">
+       <property name="text">
+        <string>Subject</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_patro">
+       <property name="text">
+        <string>Введите отчество </string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>158</width>
+         <height>21</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QDialogButtonBox" name="buttonBox_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>178</width>
+         <height>21</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
