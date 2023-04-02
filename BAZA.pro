@@ -8,42 +8,47 @@ CONFIG += c++17
 # In order to do so, uncomment the following line.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
+INCLUDEPATH +=$$PWD/Structs
+INCLUDEPATH +=$$PWD/Edit
+INCLUDEPATH +=$$PWD/Search
+INCLUDEPATH +=$$PWD/Add_info
+
 SOURCES += \
-    add_department.cpp \
-    edit.cpp \
-    help.cpp \
-    insert_data.cpp \
-    link_teachers_subj.cpp \
+    Add_info/add_department.cpp \
+    Edit/edit.cpp \
+    Edit/help.cpp \
+    Add_info/insert_data.cpp \
+    Edit/link_teachers_subj.cpp \
     main.cpp \
     mainwindow.cpp \
-    search.cpp \
-    search_info.cpp
+    Search/search.cpp \
+    Search/search_info.cpp
 
 HEADERS += \
-    Struct_search_facultaties.h \
-    Struct_search_students.h \
-    Struct_search_subjects.h \
-    Struct_search_subjects_and_faculties.h \
-    Struct_search_teachers.h \
-    Struct_search_teachers_and_subjects.h \
-    add_department.h \
-    edit.h \
-    help.h \
-    insert_data.h \
-    link_teachers_subj.h \
+    Structs/Struct_search_facultaties.h \
+    Structs/Struct_search_students.h \
+    Structs/Struct_search_subjects.h \
+    Structs/Struct_search_subjects_and_faculties.h \
+    Structs/Struct_search_teachers.h \
+    Structs/Struct_search_teachers_and_subjects.h \
+    Add_info/add_department.h \
+    Edit/edit.h \
+    Edit/help.h \
+    Add_info/insert_data.h \
+    Edit/link_teachers_subj.h \
     mainwindow.h \
-    search.h \
-    search_info.h
+    Search/search.h \
+    Search/search_info.h
 
 FORMS += \
-    add_department.ui \
-    edit.ui \
-    help.ui \
-    insert_data.ui \
-    link_teachers_subj.ui \
+    Add_info/add_department.ui \
+    Edit/edit.ui \
+    Edit/help.ui \
+    Add_info/insert_data.ui \
+    Edit/link_teachers_subj.ui \
     mainwindow.ui \
-    search.ui \
-    search_info.ui
+    Search/search.ui \
+    Search/search_info.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
