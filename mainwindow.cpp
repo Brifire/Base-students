@@ -39,7 +39,7 @@ bool MainWindow::create_connetction()
     db.setDatabaseName("postgres");
     db.setUserName("postgres");
     db.setHostName("localhost");
-    db.setPassword("36300");
+    db.setPassword("1");
             if(!db.open())
     {
         qDebug() <<"Error: "<<db.lastError();
